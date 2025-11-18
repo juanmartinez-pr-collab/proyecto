@@ -2,7 +2,8 @@
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
-  text-align: center;
+  background: hsl(55, 98%, 46%);
+  text-align: end;
 }
 
 .logo {
@@ -12,10 +13,10 @@
   transition: filter 300ms;
 }
 .logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+  filter: drop-shadow(0 0 2em #070707aa);
 }
 .logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+  filter: drop-shadow(0 0 2em #181818aa);
 }
 
 @keyframes logo-spin {
@@ -42,6 +43,7 @@
 }
 .buttons {
   display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
   gap: 1rem;
@@ -54,9 +56,10 @@ button {
   border-radius: 0.5rem;
   border: none;
   cursor: pointer;
-  background: #646cff;
+  background: #64ff64;
   color: white;
   transition: background 0.3s, transform 0.2s;
+  filter: drop-shadow(0 0 2em #070707aa);
 }
 button:hover {
   background: #535bf2;
@@ -73,5 +76,8 @@ button:hover {
 .message {
   margin-top: 1rem;
   font-weight: bold;
-  color: #ff6f61;
+  color: #eeecec;
+}
+.read-the-docs{
+  color:#eeecec
 }
